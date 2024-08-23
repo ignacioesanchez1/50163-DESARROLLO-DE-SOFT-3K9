@@ -1,0 +1,145 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>TP-HTML</title>
+    <style>
+        header, footer{
+            background-color: rgb(171, 16, 16);
+            color: white;
+            text-align: center;
+            padding: 8px;
+        }
+        </style>
+</head>
+<body>
+    <header>
+        <h1>Trabajo Practico de HTML</h1>
+    </header>
+    <!--ENUNCIADO 1-->
+    <section  id="1">
+        <h1> 1.Estructura Básica del Documento HTML </h1>
+        <p>
+            Este documento HTML tiene una estructura básica que incluye
+            la declaración de DOCTYPE, etiquetas de metadatos y un título.
+        </p>
+    </section>
+    <!--ENUNCIADO 2-->
+    <section id="2">
+        <h1>2. Encabezados y Propiedades del Texto</h1>
+        <h2>Encabezado en h2</h2>
+        <h3>Encabezado en h3</h3>
+        <h4>Encabezado h4</h4>
+        <h5>Encabezado h5</h5>
+        <h6>Encabezado h6</h6>
+        <p><b>Este es un texto en negrita.</b></p>
+        <p><em>Este es un texto en cursiva.</em></p>
+        <p><u>Este es un texto subrayado.</u></p>
+    </section>
+    <!--ENUNCIADO 3-->
+    <section id="3">
+      <div>
+        <h1>3. Divisiones y Agrupación de Contenido</h1>
+        <h3>Sección 1</h3>
+        <p>Contenido de la primera sección agrupada en un div.</p>
+      </div>
+      <div>
+        <h3>Sección 2</h3>
+        <p>Contenido de la segunda sección agrupada en un div.</p>
+      </div>
+    </section>
+    <!--ENUNCIADO 4-->
+    <section id="4">
+        <div>
+            <h1>4. Enlaces y Listas</h1>
+        <nav>
+        <p>Visita nuestro <a href="https://www.google.com/" target="_blank">sitio web</a> para más información.</p>
+        </nav>
+        </div>
+        <div>
+            <p>Enlaces internos:</p>
+            <nav>
+               <ul>
+                <li><a href="#1">Ir a Encabezados</a></li>
+                <li><a href="#5">Ir a Multimedia</a></li>
+                <li><a href="#7">Ir a Formularios</a></li>
+               </ul> 
+            </nav>
+        </div>
+        <div>
+            <p>Lista desordenada:</p>
+            <ul>
+                <li>Primer ítem de una lista desordenada</li>
+                <li>Segundo ítem de una lista desordenada</li>
+            </ul>
+        </div>
+        <div>
+            <p>Lista ordenada:</p>
+            <ol>
+                <li>Primer ítem de una lista ordenada</li>
+                <li>Segundo ítem de una lista ordenada</li>
+            </ol>
+        </div>
+    
+    </section>
+    <!--ENUNCIADO 5-->
+    <section id="5">
+        <h1>5. Elementos Multimedia</h1>
+         <div>
+            <img src="https://estaticos.elcolombiano.com/binrepository/781x1001/0c1/780d565/none/11101/WYEO/homero-simpson_42360908_20230512163831.jpg" 
+            alt="Homero Simpson un personaje principal de la serie animada LOS SIMPSONS" width="200px" height="200px" />
+         </div>
+         <div>
+            <video src="https://video-previews.elements.envatousercontent.com/5b3b6876-9689-4cfe-9692-1cf061a156f6/watermarked_preview/watermarked_preview.mp4" 
+            controls width="200px" height="200px" />
+         </div>
+         <div>
+            <audio src="https://download.blender.org/peach/trailer/trailer_1080p.ogg" controls />
+         </div>
+    </section>
+    <!--ENUNCIADO 6-->
+    <section id="6">
+        <h1>6. Tablas</h1>
+        <table border="1" cellpadding="5"> <!--contenedor-->
+            <thead> <!--cabeza-->
+               <tr>  <!--columnas-->
+                  <th>Columna 1</th>
+                  <th>Columna 2</th>
+               </tr>
+            </thead> 
+                  
+            <tbody> <!--cuerpo donde están los datos-->
+                  <tr>
+                     <td>Dato 1</td>
+                     <td>Dato 2</td>
+                  </tr>
+                  <tr>
+                     <td>Dato 3</td>
+                     <td>Dato 4</td>
+                  </tr>
+            </tbody>
+        </table>   
+    </section>
+    <!--ENUNCIADO 7-->
+    <section id="7">
+        <h1>7. Formularios</h1>
+        <form>
+            <label>Nombre:</label>
+            <input type="text" placeholder="ingrese su nombre" />
+            <label>Email:</label>
+            <input type="email" placeholder="example@example.com" />
+            <label>Mensaje:</label>
+            <textarea placeholder="escriba un mensaje"></textarea>
+            <button type="submit">Enviar</button>
+        </form>
+    </section>
+    <!--ENUNCIADO 8-->
+    <section id="8">
+        <br>  
+     <footer>
+        <p> © 2024 IGNACIO. Todos los derechos reservados.</p>
+     </footer>
+    </section> 
+</body>
+</html>
